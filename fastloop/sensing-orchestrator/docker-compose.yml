@@ -1,0 +1,55 @@
+services:
+  bandit:
+    build:
+      context: ./bandit/
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        reservations:
+          cpus: '1.0'
+    cpuset: "0"
+    privileged: true
+    pid: "host"
+    volumes:
+      - "./bandit:/app"
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - DISPLAY=${DISPLAY}
+    depends_on:
+      - ml
+      - logger
+  
+  ml:
+    build:
+      context: ./ml/
+      dockerfile: Dockerfile
+    volumes:
+      - "./ml:/app"
+    deploy:
+      resources:
+        reservations:
+          cpus: '1.0'
+    cpuset: "1"
+    environment:
+      - REDIS_URL=redis://redis:6379
+    ports:
+      - 8080:8080
+
+  logger:
+    build:
+      context: ./logger/
+      dockerfile: Dockerfile
+    volumes:
+      - "./logger:/app"
+    ports:
+      - 8090:8090
+
+  api:
+    build:
+      context: ./api/
+      dockerfile: Dockerfile
+    volumes:
+      - "./api:/app"
+    ports:
+      - 8000:8000

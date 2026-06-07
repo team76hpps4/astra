@@ -1,0 +1,42 @@
+GLOBAL_DEFAULTS:
+  cu_trigger_threshold: 0.70
+  max_width_changes_per_4h: 1
+
+EVENT_DEFAULTS:
+  2.4G:
+    very_busy:
+      tx_power_dbm: 18
+      channel_width_mhz: 20
+      obss_pd_dbm: -85
+      channel: 1
+
+    moderate_busy:
+      tx_power_dbm: 16
+      channel_width_mhz: 20
+      obss_pd_dbm: -86
+      channel: 6
+
+    low_busy:
+      tx_power_dbm: 14
+      channel_width_mhz: 20
+      obss_pd_dbm: -88
+      channel: 11
+
+  5G:
+    very_busy:
+      tx_power_dbm: 23
+      channel_width_mhz: 40
+      obss_pd_dbm: -78
+      channel: 36
+
+    moderate_busy:
+      tx_power_dbm: 20
+      channel_width_mhz: 40
+      obss_pd_dbm: -82
+      channel: 44
+
+    low_busy:
+      tx_power_dbm: 18
+      channel_width_mhz: 20
+      obss_pd_dbm: -85
+      channel: 52

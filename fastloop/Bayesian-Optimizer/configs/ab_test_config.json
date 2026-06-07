@@ -1,0 +1,5 @@
+{
+    "tx_power_dbm": 20.0,
+    "obss_pd_dbm": -75.0,
+    "channel_width_mhz": 40.0
+}

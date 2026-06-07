@@ -1,0 +1,350 @@
+2025-11-13 22:48:59,338 [INFO] wifi_main: MATLAB engine started
+2025-11-13 22:48:59,339 [INFO] wifi_main: === Switching to window 0 ===
+2025-11-13 22:49:55,178 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:50:52,135 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 22:51:07,128 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:51:07,128 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:51:07,129 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 192.70978482939836}
+2025-11-13 22:52:03,967 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:52:18,868 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:52:18,868 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:52:18,868 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 190.68033317872926}
+2025-11-13 22:53:16,188 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -90.22399515470268, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 22:53:31,007 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:53:31,007 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:53:31,007 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.6475490398216}
+2025-11-13 22:54:27,785 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -84.79260939603348, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:54:42,529 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:54:42,529 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:54:42,529 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.65291294219492}
+2025-11-13 22:55:40,624 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:55:55,246 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:55:55,246 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:55:55,246 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.6541365290382}
+2025-11-13 22:56:51,085 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -78.62021636998513, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 22:57:05,811 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:57:05,811 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:57:05,811 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.7948086985923, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.65734710887725}
+2025-11-13 22:58:03,348 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 22.031689448531655, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:58:59,255 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -84.84648486615492, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 22:59:14,157 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 22:59:14,157 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 22:59:14,158 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 22.031689448531655, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.66620382142753}
+2025-11-13 23:00:09,778 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.550222788310336, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:01:05,960 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:01:21,054 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:01:21,055 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:01:21,055 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.550222788310336, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.65524162006454}
+2025-11-13 23:02:17,326 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 22.092651930088614, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:03:14,277 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -73.73212601667989, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:03:29,183 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:03:29,184 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:03:29,184 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 22.092651930088614, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.62861638166078}
+2025-11-13 23:04:24,193 [INFO] wifi_main: === Switching to window 1 ===
+2025-11-13 23:06:04,767 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.998370162679343, 'obss_pd_dbm': -63.36487135711954, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:07:02,546 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997191102645125, 'obss_pd_dbm': -65.24973282828059, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:07:59,145 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:08:14,506 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:08:14,506 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:08:14,506 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997191102645125, 'obss_pd_dbm': -65.24973282828059, 'channel_width_mhz': 40.0, 'objective': 190.7353122511743}
+2025-11-13 23:09:11,228 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:09:26,281 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:09:26,281 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:09:26,282 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997191102645125, 'obss_pd_dbm': -65.24973282828059, 'channel_width_mhz': 40.0, 'objective': 188.6831961911913}
+2025-11-13 23:10:23,071 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -93.73245070548289, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:10:38,133 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:10:38,133 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:10:38,133 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997191102645125, 'obss_pd_dbm': -65.24973282828059, 'channel_width_mhz': 40.0, 'objective': 188.57718123922123}
+2025-11-13 23:11:35,002 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -93.91483562171568, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:11:50,047 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:11:50,047 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:11:50,048 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997191102645125, 'obss_pd_dbm': -65.24973282828059, 'channel_width_mhz': 40.0, 'objective': 188.57640406182387}
+2025-11-13 23:12:47,120 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:13:44,654 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -93.12913207881866, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:13:59,835 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:13:59,836 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:13:59,837 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 188.63235716234828}
+2025-11-13 23:14:57,439 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -90.89263171003181, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:15:12,681 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:15:12,681 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:15:12,681 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 188.70193849297024}
+2025-11-13 23:16:09,846 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -91.4325820680393, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:16:24,559 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:16:24,559 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:16:24,559 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 188.7639919972565}
+2025-11-13 23:17:20,870 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -91.96210321108026, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:17:35,605 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:17:35,605 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:17:35,605 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 188.7642869913043}
+2025-11-13 23:18:31,978 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -89.79867291278548, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:18:46,811 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-13 23:18:46,812 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:18:46,812 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.997323222413126, 'obss_pd_dbm': -64.15234885160322, 'channel_width_mhz': 40.0, 'objective': 188.76036062321955}
+2025-11-13 23:19:41,833 [INFO] wifi_main: === Switching to window 2 ===
+2025-11-13 23:21:19,028 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:22:15,557 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 27.601550710753667, 'obss_pd_dbm': -68.10102119302977, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:22:30,310 [WARNING] wifi_main: Unstable config detected: retry=0.23 eirp=31.60. Reverting to safe config.
+2025-11-13 23:22:30,310 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:22:30,310 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 192.61234659189782}
+2025-11-13 23:23:25,895 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 26.539970688962473, 'obss_pd_dbm': -68.54102563096647, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:23:40,739 [WARNING] wifi_main: Unstable config detected: retry=4.44 eirp=30.54. Reverting to safe config.
+2025-11-13 23:23:40,739 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:23:40,739 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 190.47673925942127}
+2025-11-13 23:24:36,284 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:24:51,175 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:24:51,175 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:24:51,176 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.3516315731848}
+2025-11-13 23:25:48,119 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -67.01690839679904, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:26:02,949 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:26:02,949 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:26:02,949 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.34518745465542}
+2025-11-13 23:26:59,205 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 26.383165648034556, 'obss_pd_dbm': -68.60413796140602, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:27:14,431 [WARNING] wifi_main: Unstable config detected: retry=6.08 eirp=30.38. Reverting to safe config.
+2025-11-13 23:27:14,431 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:27:14,431 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.34977508850102}
+2025-11-13 23:28:10,295 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 28.418382536650206, 'obss_pd_dbm': -68.66173924355795, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:28:25,230 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=32.42. Reverting to safe config.
+2025-11-13 23:28:25,231 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:28:25,231 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.33835803217184}
+2025-11-13 23:29:21,312 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 26.304902802774322, 'obss_pd_dbm': -68.48388140145126, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:29:36,301 [WARNING] wifi_main: Unstable config detected: retry=7.68 eirp=30.30. Reverting to safe config.
+2025-11-13 23:29:36,301 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:29:36,301 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.3466134869468}
+2025-11-13 23:30:32,279 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 26.269012400556857, 'obss_pd_dbm': -68.48293147924552, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:30:47,323 [WARNING] wifi_main: Unstable config detected: retry=8.46 eirp=30.27. Reverting to safe config.
+2025-11-13 23:30:47,323 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:30:47,323 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.34903084533923}
+2025-11-13 23:31:43,426 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 26.239700490696332, 'obss_pd_dbm': -68.47765632903199, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:31:58,569 [WARNING] wifi_main: Unstable config detected: retry=9.19 eirp=30.24. Reverting to safe config.
+2025-11-13 23:31:58,569 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:31:58,569 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.35221712385564}
+2025-11-13 23:32:55,491 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 29.260530564606903, 'obss_pd_dbm': -65.3516571678055, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:33:10,345 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=33.26. Reverting to safe config.
+2025-11-13 23:33:10,346 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:33:10,346 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.999160495349074, 'obss_pd_dbm': -68.67309704260465, 'channel_width_mhz': 40.0, 'objective': 188.34674631097243}
+2025-11-13 23:34:05,460 [INFO] wifi_main: === Switching to window 3 ===
+2025-11-13 23:35:04,063 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.741239541761583, 'obss_pd_dbm': -64.14598577179541, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:35:59,736 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:36:56,244 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.334891383040812, 'obss_pd_dbm': -74.0758168207934, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:37:11,036 [WARNING] wifi_main: Unstable config detected: retry=81.13 eirp=29.33. Reverting to safe config.
+2025-11-13 23:37:11,036 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:37:11,036 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 126.79438022450246}
+2025-11-13 23:38:08,973 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.382456637004097, 'obss_pd_dbm': -72.97809099290149, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:38:23,832 [WARNING] wifi_main: Unstable config detected: retry=64.87 eirp=29.38. Reverting to safe config.
+2025-11-13 23:38:23,832 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:38:23,832 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 125.80557587884198}
+2025-11-13 23:39:21,198 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.98993058873552, 'obss_pd_dbm': -70.12400405562099, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:39:36,131 [WARNING] wifi_main: Unstable config detected: retry=14.78 eirp=29.99. Reverting to safe config.
+2025-11-13 23:39:36,131 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:39:36,131 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 94.40668556495422}
+2025-11-13 23:40:33,315 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.92198865494015, 'obss_pd_dbm': -73.3103389085271, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:40:47,057 [WARNING] wifi_main: Unstable config detected: retry=40.13 eirp=29.92. Reverting to safe config.
+2025-11-13 23:40:47,057 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:40:47,057 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 94.40431974376772}
+2025-11-13 23:41:42,393 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.17669885784067, 'obss_pd_dbm': -73.61616348492947, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:41:56,067 [WARNING] wifi_main: Unstable config detected: retry=83.63 eirp=29.18. Reverting to safe config.
+2025-11-13 23:41:56,067 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:41:56,067 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 94.40375577168129}
+2025-11-13 23:42:50,828 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.782329651855, 'obss_pd_dbm': -74.54897898012719, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:43:04,596 [WARNING] wifi_main: Unstable config detected: retry=68.06 eirp=29.78. Reverting to safe config.
+2025-11-13 23:43:04,596 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:43:04,596 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 94.40498660674575}
+2025-11-13 23:43:59,600 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -64.01317730706582, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:44:13,277 [WARNING] wifi_main: Unstable config detected: retry=98.46 eirp=21.00. Reverting to safe config.
+2025-11-13 23:44:13,277 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:44:13,277 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 19.673046551243758, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 20.0, 'objective': 94.40698436755103}
+2025-11-13 23:45:09,103 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.985959764792533, 'obss_pd_dbm': -65.32795650972801, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:46:04,323 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.318115573970456, 'obss_pd_dbm': -70.21649197855496, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:46:18,177 [WARNING] wifi_main: Unstable config detected: retry=49.35 eirp=29.32. Reverting to safe config.
+2025-11-13 23:46:18,177 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:46:18,177 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.985959764792533, 'obss_pd_dbm': -65.32795650972801, 'channel_width_mhz': 20.0, 'objective': 94.37527155827449}
+2025-11-13 23:47:13,981 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.98243532495659, 'obss_pd_dbm': -79.58812393969934, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:47:27,803 [WARNING] wifi_main: Unstable config detected: retry=84.90 eirp=29.98. Reverting to safe config.
+2025-11-13 23:47:27,803 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:47:27,803 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.985959764792533, 'obss_pd_dbm': -65.32795650972801, 'channel_width_mhz': 20.0, 'objective': 94.34336706530873}
+2025-11-13 23:48:23,479 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.985573197179335, 'obss_pd_dbm': -90.80686018865498, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-13 23:48:37,263 [WARNING] wifi_main: Unstable config detected: retry=86.80 eirp=29.99. Reverting to safe config.
+2025-11-13 23:48:37,263 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:48:37,263 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.985959764792533, 'obss_pd_dbm': -65.32795650972801, 'channel_width_mhz': 20.0, 'objective': 94.31166885706659}
+2025-11-13 23:49:31,155 [INFO] wifi_main: === Switching to window 4 ===
+2025-11-13 23:50:10,103 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:51:21,559 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:51:35,579 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:51:35,579 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:51:35,579 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 192.13619927201194}
+2025-11-13 23:52:31,154 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:52:45,303 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:52:45,303 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:52:45,303 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 189.52361805519777}
+2025-11-13 23:53:41,474 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:53:55,443 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:53:55,443 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:53:55,443 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 186.90495351499996}
+2025-11-13 23:54:51,759 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:55:05,475 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:55:05,475 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:55:05,475 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 186.91158779462694}
+2025-11-13 23:56:01,553 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.966237923997426, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:56:56,045 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:57:09,840 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-13 23:57:09,841 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-13 23:57:09,841 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.966237923997426, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 187.60549554491624}
+2025-11-13 23:58:04,422 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:58:59,982 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.79784340321523, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-13 23:59:54,685 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:00:08,507 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:00:08,507 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:00:08,507 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.79784340321523, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.2767693581834}
+2025-11-14 00:01:02,655 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:01:57,115 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.662747717210287, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:02:51,692 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.438502297382357, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:03:45,582 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:03:58,948 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:03:58,948 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:03:58,948 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.438502297382357, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.24423679862556}
+2025-11-14 00:04:52,434 [INFO] wifi_main: === Switching to window 5 ===
+2025-11-14 00:06:23,930 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:07:20,092 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.998659183960058, 'obss_pd_dbm': -66.4503026425533, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:07:33,780 [WARNING] wifi_main: Unstable config detected: retry=11.08 eirp=30.00. Reverting to safe config.
+2025-11-14 00:07:33,780 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:07:33,780 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 192.61686884170567}
+2025-11-14 00:08:33,192 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.99827041104757, 'obss_pd_dbm': -67.18122690391125, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:08:47,479 [WARNING] wifi_main: Unstable config detected: retry=12.61 eirp=30.00. Reverting to safe config.
+2025-11-14 00:08:47,479 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:08:47,479 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 190.49576306599462}
+2025-11-14 00:09:48,054 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.998689413154082, 'obss_pd_dbm': -66.21635514118638, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:10:02,185 [WARNING] wifi_main: Unstable config detected: retry=11.42 eirp=30.00. Reverting to safe config.
+2025-11-14 00:10:02,185 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:10:02,185 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.3705315583198}
+2025-11-14 00:11:02,605 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.998378806802023, 'obss_pd_dbm': -67.25699508305371, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:11:16,862 [WARNING] wifi_main: Unstable config detected: retry=13.60 eirp=30.00. Reverting to safe config.
+2025-11-14 00:11:16,862 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:11:16,862 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.37114612925032}
+2025-11-14 00:12:13,824 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.99867027107316, 'obss_pd_dbm': -66.18590848837358, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:12:27,567 [WARNING] wifi_main: Unstable config detected: retry=10.27 eirp=30.00. Reverting to safe config.
+2025-11-14 00:12:27,567 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:12:27,567 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.36288562272009}
+2025-11-14 00:13:24,254 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.9983737055066, 'obss_pd_dbm': -67.3541932409042, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:13:38,174 [WARNING] wifi_main: Unstable config detected: retry=13.32 eirp=30.00. Reverting to safe config.
+2025-11-14 00:13:38,174 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:13:38,174 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.3669309543735}
+2025-11-14 00:14:33,558 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.981011990047485, 'obss_pd_dbm': -66.1602847282622, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:14:47,529 [WARNING] wifi_main: Unstable config detected: retry=11.29 eirp=29.98. Reverting to safe config.
+2025-11-14 00:14:47,529 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:14:47,529 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.36617973265342}
+2025-11-14 00:15:42,831 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.867740551535647, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:15:56,639 [WARNING] wifi_main: Unstable config detected: retry=89.14 eirp=29.87. Reverting to safe config.
+2025-11-14 00:15:56,639 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:15:56,639 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.37600767636783}
+2025-11-14 00:16:51,750 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.96523421072014, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:17:05,502 [WARNING] wifi_main: Unstable config detected: retry=89.14 eirp=29.97. Reverting to safe config.
+2025-11-14 00:17:05,503 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:17:05,503 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.992351944746243, 'obss_pd_dbm': -66.61143920606717, 'channel_width_mhz': 40.0, 'objective': 188.37055889180797}
+2025-11-14 00:18:00,722 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.56310079895612, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:18:55,589 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.773052810351935, 'obss_pd_dbm': -63.685575114055034, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:19:09,523 [WARNING] wifi_main: Unstable config detected: retry=15.03 eirp=27.77. Reverting to safe config.
+2025-11-14 00:19:09,523 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:19:09,523 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.56310079895612, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.55281166039552}
+2025-11-14 00:20:03,501 [INFO] wifi_main: === Switching to window 6 ===
+2025-11-14 00:21:09,327 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.504672371008315, 'obss_pd_dbm': -62.13671721762238, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:22:04,868 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.053658878149154, 'obss_pd_dbm': -74.72548098243438, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:22:18,862 [WARNING] wifi_main: Unstable config detected: retry=91.86 eirp=29.05. Reverting to safe config.
+2025-11-14 00:22:18,862 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:22:18,863 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.504672371008315, 'obss_pd_dbm': -62.13671721762238, 'channel_width_mhz': 40.0, 'objective': 192.82573943932348}
+2025-11-14 00:23:13,652 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.47209691509234, 'obss_pd_dbm': -70.1336614937207, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:23:27,192 [WARNING] wifi_main: Unstable config detected: retry=87.55 eirp=28.47. Reverting to safe config.
+2025-11-14 00:23:27,192 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:23:27,192 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.504672371008315, 'obss_pd_dbm': -62.13671721762238, 'channel_width_mhz': 40.0, 'objective': 190.91008919715867}
+2025-11-14 00:24:22,407 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 27.503527753421373, 'obss_pd_dbm': -63.45313109122256, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:24:35,855 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=31.50. Reverting to safe config.
+2025-11-14 00:24:35,855 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:24:35,855 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.504672371008315, 'obss_pd_dbm': -62.13671721762238, 'channel_width_mhz': 40.0, 'objective': 188.99438764280458}
+2025-11-14 00:25:29,761 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:26:24,015 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.00000000000001, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:26:37,568 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:26:37,568 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:26:37,568 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.9780232629174}
+2025-11-14 00:27:32,256 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 28.657981468793107, 'obss_pd_dbm': -69.06665246066238, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:27:46,294 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=32.66. Reverting to safe config.
+2025-11-14 00:27:46,294 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:27:46,295 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.9671112122263}
+2025-11-14 00:28:40,766 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.291773387471224, 'obss_pd_dbm': -68.11507488656795, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:28:54,225 [WARNING] wifi_main: Unstable config detected: retry=88.21 eirp=28.29. Reverting to safe config.
+2025-11-14 00:28:54,225 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:28:54,225 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.9650432357056}
+2025-11-14 00:29:49,452 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 27.03077523364145, 'obss_pd_dbm': -71.16852359198762, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:30:03,534 [WARNING] wifi_main: Unstable config detected: retry=1.84 eirp=31.03. Reverting to safe config.
+2025-11-14 00:30:03,534 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:30:03,534 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.96233166868265}
+2025-11-14 00:30:58,121 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 28.891300723628703, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:31:12,119 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=32.89. Reverting to safe config.
+2025-11-14 00:31:12,119 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:31:12,120 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.96450051722704}
+2025-11-14 00:32:06,694 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -77.79241304340024, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:32:20,608 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:32:20,608 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:32:20,608 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.96784490634798}
+2025-11-14 00:33:15,840 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.5056362226399, 'obss_pd_dbm': -74.57083723320265, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:33:30,129 [WARNING] wifi_main: Unstable config detected: retry=81.41 eirp=29.51. Reverting to safe config.
+2025-11-14 00:33:30,129 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:33:30,129 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.94128656232689, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.96914289247863}
+2025-11-14 00:34:24,643 [INFO] wifi_main: === Switching to window 7 ===
+2025-11-14 00:35:19,558 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.46874950593469, 'obss_pd_dbm': -92.5816462243419, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:36:14,166 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:36:28,127 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=21.00. Reverting to safe config.
+2025-11-14 00:36:28,127 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:36:28,127 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 25.46874950593469, 'obss_pd_dbm': -92.5816462243419, 'channel_width_mhz': 40.0, 'objective': 90.1227910143927}
+2025-11-14 00:37:23,841 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 17.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:38:18,940 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:39:14,417 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 24.157662048913004, 'obss_pd_dbm': -93.32894539030994, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:39:29,066 [WARNING] wifi_main: Unstable config detected: retry=98.98 eirp=28.16. Reverting to safe config.
+2025-11-14 00:39:29,066 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:39:29,066 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 130.41460298280802}
+2025-11-14 00:40:23,896 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 22.10517892907031, 'obss_pd_dbm': -95.0, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:40:37,646 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=26.11. Reverting to safe config.
+2025-11-14 00:40:37,646 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:40:37,646 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 157.29746009737076}
+2025-11-14 00:41:32,716 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.99578417295003, 'obss_pd_dbm': -94.18947210495114, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:41:46,898 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=26.00. Reverting to safe config.
+2025-11-14 00:41:46,898 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:41:46,898 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.91575570480435}
+2025-11-14 00:42:41,952 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.499121325654826, 'obss_pd_dbm': -94.88873049736037, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:42:55,700 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=25.50. Reverting to safe config.
+2025-11-14 00:42:55,700 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:42:55,700 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.92437858465215}
+2025-11-14 00:43:50,833 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.38433571030839, 'obss_pd_dbm': -93.06778982607638, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:44:04,781 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=25.38. Reverting to safe config.
+2025-11-14 00:44:04,781 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:44:04,781 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.93101792724}
+2025-11-14 00:44:59,628 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.679723374765253, 'obss_pd_dbm': -91.72860250273271, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:45:13,755 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=25.68. Reverting to safe config.
+2025-11-14 00:45:13,755 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:45:13,755 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.9188446796926}
+2025-11-14 00:46:08,860 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 20.942907241817856, 'obss_pd_dbm': -91.72193891215576, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:46:22,957 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=24.94. Reverting to safe config.
+2025-11-14 00:46:22,957 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:46:22,957 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.91405362861852}
+2025-11-14 00:47:17,943 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.072199007517558, 'obss_pd_dbm': -90.49339655472961, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:47:31,962 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=25.07. Reverting to safe config.
+2025-11-14 00:47:31,962 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:47:31,962 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.9088524534069}
+2025-11-14 00:48:27,160 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 20.124853958550815, 'obss_pd_dbm': -90.38468339754884, 'channel_width_mhz': 20.0, 'objective': 0.0}
+2025-11-14 00:48:41,163 [WARNING] wifi_main: Unstable config detected: retry=99.90 eirp=24.12. Reverting to safe config.
+2025-11-14 00:48:41,163 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:48:41,163 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 23.4604557309605, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.91570879419308}
+2025-11-14 00:49:35,194 [INFO] wifi_main: === Switching to window 0 ===
+2025-11-14 00:50:24,650 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.23157368130248, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:51:21,874 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:51:35,729 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:51:35,729 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:51:35,729 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.23157368130248, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 192.66644509270213}
+2025-11-14 00:52:31,216 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:52:45,162 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:52:45,162 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:52:45,162 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.23157368130248, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 190.58644466549208}
+2025-11-14 00:53:39,864 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 30.0, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 0.0}
+2025-11-14 00:53:53,844 [WARNING] wifi_main: Unstable config detected: retry=0.11 eirp=34.00. Reverting to safe config.
+2025-11-14 00:53:53,844 [WARNING] wifi_main: Unstable Configuration: Rolling back to safe config.
+2025-11-14 00:53:53,844 [INFO] wifi_main: Running MATLAB feval for {'tx_power_dbm': 21.23157368130248, 'obss_pd_dbm': -62.0, 'channel_width_mhz': 40.0, 'objective': 188.51207678243046}
+2025-11-14 00:54:17,051 [INFO] wifi_main: Stopped manually
+2025-11-14 00:54:17,138 [INFO] wifi_main: MATLAB engine stopped

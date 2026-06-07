@@ -1,0 +1,115 @@
+clear; close all;
+
+%% ===============================================================
+% IMPROVED RRM TEST SCRIPT: TARGET >1 Mbps MEDIAN THROUGHPUT PER AP
+% Changes: Fixed func call/bug; TX=18 dBm; CCA/PD=-35 dBm (loosened); softer PL;
+% Longer sim; conservative channel cycle; lower non-WiFi; updated prints.
+% MOD: Reduced to 2 rooms (6 APs total) for smaller scale.
+% ================================================================
+
+%% 1. FULL CONFIG (LOOSENED SETTINGS FOR TX)
+config.random_seed = 123;
+config.sim_duration_s = 40;  % Longer for stable medians
+config.dt_ms = 10;
+config.channel_width_mhz = 20;
+% Noise model (unchanged)
+config.noise_floor_dbm = -95;
+config.noise_variation_frac = 0.03;
+% Shadowing (high for variance)
+config.short_term_shadowing_sigma = 6;
+config.shadowing_sigma = 4;
+% CCA/PD: Loosened for more TX
+config.cca_threshold_dbm = -70;
+% Geometry (REDUCED ROOMS)
+config.room_size = [30 30];
+config.num_rooms = 2; 
+config.ap_per_room = 3;
+config.client_grid_spacing = 5;
+% Non-WiFi: Very low duty
+config.bt.count = 1;
+config.bt.tx_power_dbm = 2;
+config.bt.duty_cycle = 0.002;
+config.zb.count = 1;
+config.zb.tx_power_dbm = -5;
+config.zb.duty_cycle = 0.001;
+% Channels (unchanged)
+config.channels = 1:13;
+% MCS Lookup Tables (unchanged)
+config.MCS_SINR_Required = [0,1.5,3.5,5,8,10,12,13,15,17,18,20];
+config.MCS_Rates_20MHz = [6.5,13,19.5,26,39,52,58.5,65,78,86.7,97.5,108.3];
+% Path Loss: Steeper for isolation
+config.pathloss.n_exp = 3.8;
+config.pathloss.wall_loss_db = 20;
+config.pathloss.PL_d0_dB = 40;
+config.pathloss.d0 = 1;
+
+%% 2. RRM CONTROL INPUTS (LOOSENED POWER/THRESHOLDS)
+TX = 30;  % Low for less interference
+PD = -2; % Loosened OBSS-PD
+CW = 40;  % MHz
+CH_CYCLE = [1, 6, 11];  % Non-overlapping base
+
+%% 3. BUILD AP CONFIGS (Conservative Channel Cycling)
+ap_configs = struct([]);
+idx = 1;
+for r = 1:config.num_rooms
+    x_room_start = (r-1) * (config.room_size(1) + 1);
+    % Cycle channels per room to minimize adjacent overlap
+    ch_idx = mod(r-1, 3) + 1;
+    % AP 1: Base cycle
+    ap_configs(idx).pos = [x_room_start + 2, 5];
+    ap_configs(idx).tx_power_dbm = TX;
+    ap_configs(idx).channel_width_mhz = CW;
+    ap_configs(idx).channel = CH_CYCLE(ch_idx);
+    ap_configs(idx).obss_pd_dbm = PD;
+    ap_configs(idx).network_id = mod(idx-1, 3) + 1;
+    idx = idx + 1;
+    % AP 2: Offset cycle to spread load
+    ap_configs(idx).pos = [x_room_start + 5, 5];
+    ap_configs(idx).tx_power_dbm = TX;
+    ap_configs(idx).channel_width_mhz = CW;
+    ap_configs(idx).channel = CH_CYCLE(mod(ch_idx, 3) + 1);
+    ap_configs(idx).obss_pd_dbm = PD;
+    ap_configs(idx).network_id = mod(idx-1, 3) + 1;
+    idx = idx + 1;
+    % AP 3: Further offset
+    ap_configs(idx).pos = [x_room_start + 8, 5];  % Aligned y for simplicity
+    ap_configs(idx).tx_power_dbm = TX;
+    ap_configs(idx).channel_width_mhz = CW;
+    ap_configs(idx).channel = CH_CYCLE(mod(ch_idx + 1, 3) + 1);
+    ap_configs(idx).obss_pd_dbm = PD;
+    ap_configs(idx).network_id = mod(idx-1, 3) + 1;
+    idx = idx + 1;
+end
+
+%% 4. FIXED SIMULATOR CODE (With Bug Patch & Latest Tunes)
+% Run the FIXED simulator (correct name)
+disp("Running improved RRM enhanced simulation...");
+results = simulate_environment(config, ap_configs);  % FIXED CALL
+
+%% 5. PRINT PER-AP METRICS (Updated with Mean & Clients)
+fprintf('\n--- Per-AP Metrics (Improved) ---\n');
+for a = 1:numel(results.perAP)
+    fprintf('AP %d (Ch %d, Net %d): MedianThr=%.2f (Mean=%.2f) Mbps, P95Thr=%.2f Mbps, AvgRetry=%.1f%%, Util=%.1f%%, Clients=%.0f, AvgInt=%.1f dBm\n', ...
+        a, results.perAP(a).channel, results.env.APs(a).network_id, ...
+        results.perAP(a).median_throughput_mbps, results.perAP(a).mean_throughput_mbps, ...
+        results.perAP(a).p95_throughput_mbps, ...
+        results.perAP(a).avg_retry_percent, ...
+        results.perAP(a).avg_channel_util_percent, ...
+        results.perAP(a).avg_client_count, ...
+        results.perAP(a).mean_total_interf_dbm);
+end
+
+%% 6. PRINT PER-CHANNEL METRICS (Updated with Mean)
+fprintf('\n--- Per-Channel Aggregation (Improved) ---\n');
+for i = 1:numel(results.perChannel)
+    ch = results.perChannel(i);
+    fprintf('Channel %d: MedianThr=%.2f (Mean=%.2f) Mbps, P95Thr=%.2f Mbps, AvgUtil=%.1f%%\n', ...
+        ch.channel_id, ch.total_median_throughput_mbps, ch.total_mean_throughput_mbps, ...
+        ch.total_p95_throughput_mbps, ch.avg_channel_util_percent);
+end
+
+%% 7. SHOW AP-TO-AP COUPLING MATRIX (Should be weaker now)
+disp(" ");
+disp("AP → AP RSSI Coupling (dBm, Improved):");
+disp(results.AP2AP_rssi_dbm);

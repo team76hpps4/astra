@@ -1,0 +1,3 @@
+fastapi[full]
+uvicorn[standard]
+requests
